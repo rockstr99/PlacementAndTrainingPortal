@@ -123,8 +123,8 @@ public class Company {
     {
         for(StudentModel student : students)
         {
-            System.out.println(this.min_criteria.getBacklog_count());
-            System.out.println(student.getCriteria().getBacklog_count());
+//            System.out.println(this.min_criteria.getBacklog_count());
+//            System.out.println(student.getCriteria().getBacklog_count());
            if(this.min_criteria.getBacklog_count() >= student.getCriteria().getBacklog_count()) System.out.println(student);
         }
     }
