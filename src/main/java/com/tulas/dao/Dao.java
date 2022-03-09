@@ -1,5 +1,10 @@
 package com.tulas.dao;
 
-public class Dao {
-    //this will contain the array list upon which we will operate using the apis
+import com.tulas.models.UserModel;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Dao{
+    public List<Object> db = new ArrayList<>();
 }
